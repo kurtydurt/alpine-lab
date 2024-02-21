@@ -1,7 +1,8 @@
 ---
 layout: layout.liquid
-title: 11ty Boilerplate
+title: Random Name
 ---
-
-<h1>Yet Another 11ty <strong>Boilerplate</strong></h1>
-<img alt="pine" src="/images/pine.png" width="50" />
+<div x-data="{names : ['Will', 'Shay', 'Mike', 'Adam', 'Derek', 'Sophie', 'Paige', 'Taylor', 'Ashley', 'Delaney']}">
+    <h1 id="name">Random Name Here</h1>
+    <button @click="changeHeader(names)">Random Name</button>
+</div>
